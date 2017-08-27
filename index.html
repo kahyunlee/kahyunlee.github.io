@@ -128,13 +128,17 @@
 
       }
 
-      #works_img{
+      .works_img{
         margin-left: 30px;
         padding-left: 60px;
         padding-right: 20px;
         border-right: 1px solid #DFDFDF;
         width : 500px;
         height : 500px;
+
+
+
+
       }
 
       #steps{
@@ -146,6 +150,11 @@
 
       }
 
+      .works_img > il {
+        display: inline;
+      }
+
+
 
 
 
@@ -154,7 +163,7 @@
   <body>
     <header>
 
-      <p><h1><a style="color:black; text-decoration: none;" href=https://kahyunlee.github.io/kahyun/ >KAHYUN.KR</a></h1> </p>
+      <p><h1><a style="color:black; text-decoration: none;" href=https://kahyunlee.github.io/kahyun/ >kahyunlee.github.io</a></h1> </p>
       <!--링크-->
       <div ="btn_link">
 
@@ -183,15 +192,21 @@
 <div id ="works">
   Works
 </div>
-<div id ="works_img">
-  <img src= "works/STEPS_img.png", alt = "steps", style = "height : 400px; width : 450px;">
+<ul class ="works_img">
+  <il><img src= "works/STEPS_img.png", alt = "steps", style = "width : 450px;">
   <section id = "steps">
   <h2>STEPS</h2>
   <h6><br>Hanwha Investment & Securities lite MTS Mobile APP</br>
-  <br> 2016. 5 ~ 2016.9</br></h6>
+  <br> 2016. 5 ~ 2016.9</br></h6></il>
+  <il>
+    <img src = "works/talk_img.png", style = "width:450px;">
+    <h2>Talk Messenger</h2>
+    <h6><br>Chatbot service in Fanance app</br>
+    <br> 2017. 4 ~ 2017.8</br></h6>
+  </il>
 </section>
 
 
-</div>
+</ul>
   </body>
 </html>
